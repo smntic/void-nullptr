@@ -1,0 +1,7 @@
+require('core.options')
+require('core.keymaps')
+require('core.autocmd')
+require('core.cmds')
+require('core.make')
+require('core.lazy')
+require('theme.theme')
