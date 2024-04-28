@@ -4,5 +4,6 @@ sudo bash << EOF
 
 ./repositories.sh
 ./packages.sh
+./services.sh
 
 EOF
