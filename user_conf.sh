@@ -11,6 +11,11 @@ cp -r config/qt5ct "$HOME"/.config/
 cp -r config/picom "$HOME"/.config/
 cp -r config/ranger "$HOME"/.config/
 
+# Copy some individual files
+cp -r config/mimeapps.list "$HOME"/.config/
+cp -r config/.xprofile "$HOME"
+cp -r config/.zshenv "$HOME"
+
 # Global (user) clang-format config
 ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME"
 
