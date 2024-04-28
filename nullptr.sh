@@ -15,4 +15,5 @@ EOF
 ./user_conf.sh "$@"
 ./desktop.sh "$@"
 ./huemaster.sh "$@"
+./cursors.sh "$@"
 
