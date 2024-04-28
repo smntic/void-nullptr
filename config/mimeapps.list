@@ -1,0 +1,18 @@
+[Default Applications]
+text/plain=kate.desktop
+application/pdf=libreoffice-draw.desktop
+image/jpeg=gwenview.desktop
+image/png=gwenview.desktop
+image/webp=gwenview.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop
+application/zip=ark.desktop
+application/json=kate.desktop
+application/xml=kate.desktop
+application/octet-stream=kate.desktop
+application/x-sh=kate.desktop
+application/x-python-script=kate.desktop
+application/x-desktop=kate.desktop
+application/x-executable=kate.desktop
+
