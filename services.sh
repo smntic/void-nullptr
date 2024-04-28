@@ -13,7 +13,7 @@ ln -s /etc/sv/elogind /var/service
 ln -s /etc/sv/socklog-unix /var/service
 
 # Virtualization (host), probably should not be enabled on guest
-if ![[ "$1" == "--vm" ]]; then
+if ! [[ "$1" == "--vm" ]]; then
     ln -s /etc/sv/libvirtd /var/service
     ln -s /etc/sv/virtlockd /var/service
     ln -s /etc/sv/virtlogd /var/service
