@@ -41,7 +41,7 @@ xbps-install -y libreoffice obsidian
 xbps-install -y noto-fonts-emoji noto-fonts-cjk nerd-fonts-symbols-ttf
 
 # Window managers and utilities
-xbps-install -y i3 i3-gaps i3status i3lock-color picom dunst dmenu
+xbps-install -y i3 i3status i3lock-color picom dunst dmenu
 xbps-install -y breeze breeze-gtk
 xbps-install -y qt5ct
 xbps-install -y xss-lock xclip
