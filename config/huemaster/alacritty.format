@@ -1,0 +1,34 @@
+[window]
+opacity = 0.9
+
+[colors.primary]
+background = '$$BACKGROUND$$'
+foreground = '$$FOREGROUND$$'
+
+[colors.normal]
+black = '$$COLOR0.darken(10)$$'
+red = '$$ERROR$$'
+green = '$$GOOD$$'
+yellow = '$$WARNING$$'
+blue = '$$INFO$$'
+magenta = '$$COLOR5$$'
+cyan = '$$COLOR6$$'
+white = '$$COLOR7$$'
+
+[colors.bright]
+black = '$$COLOR8.darken(15)$$'
+red = '$$ERROR.darken(5)$$'
+green = '$$GOOD.darken(5)$$'
+yellow = '$$WARNING.darken(5)$$'
+blue = '$$INFO.darken(5)$$'
+magenta = '$$COLOR13.darken(5)$$'
+cyan = '$$COLOR14.darken(5)$$'
+white = '$$COLOR15.darken(5)$$'
+
+[font]
+normal = { family = "monospace", style = "Regular" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+bold_italic = { style = "Bold Italic" }
+size = 9.0
+

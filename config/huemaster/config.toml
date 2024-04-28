@@ -1,0 +1,55 @@
+[Wallpaper]
+path = "/home/simon/.wallpaper"
+
+[Xresources]
+format_path = "/home/simon/.config/huemaster/Xresources.format"
+real_path = "/home/simon/.Xresources"
+
+[alacritty]
+format_path = "/home/simon/.config/huemaster/alacritty.format"
+real_path = "/home/simon/.config/alacritty/alacritty.toml"
+
+[i3]
+format_path = "/home/simon/.config/huemaster/i3.format"
+real_path = "/home/simon/.config/i3/config"
+
+[i3status]
+format_path = "/home/simon/.config/huemaster/i3status.format"
+real_path = "/home/simon/.config/i3status/config"
+
+[i3lock]
+format_path = "/home/simon/.config/huemaster/i3lock.format"
+real_path = "/home/simon/bin/lock"
+
+[dunst]
+format_path = "/home/simon/.config/huemaster/dunst.format"
+real_path = "/home/simon/.config/dunst/dunstrc"
+
+[gtkrc-2]
+format_path = "/home/simon/.config/huemaster/gtkrc-2.0.format"
+real_path = "/home/simon/.gtkrc-2.0"
+
+[gtk-3-settings]
+format_path = "/home/simon/.config/huemaster/gtk-3.0.settings.format"
+real_path = "/home/simon/.config/gtk-3.0/settings.ini"
+
+[theme-vim]
+format_path = "/home/simon/.config/huemaster/theme.vim.format"
+real_path = "/home/simon/.config/nvim/lua/theme/theme.lua"
+
+[kdeglobals]
+format_path = "/home/simon/.config/huemaster/kdeglobals.format"
+real_path = "/home/simon/.config/kdeglobals"
+
+[qt5ct]
+format_path = "/home/simon/.config/huemaster/qt5ct.format"
+real_path = "/home/simon/.config/qt5ct/qt5ct.conf"
+
+[fcitx5]
+format_path = "/home/simon/.config/huemaster/fcitx5.format"
+real_path = "/home/simon/.local/share/fcitx5/themes/default-dark/theme.conf"
+
+[flameshot]
+format_path = "/home/simon/.config/huemaster/flameshot.format"
+real_path = "/home/simon/.config/flameshot/flameshot.ini"
+

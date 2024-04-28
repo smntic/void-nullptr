@@ -1,0 +1,27 @@
+#!/bin/sh
+
+i3lock                                                \
+--insidever-color=$$BACKGROUND.alpha(-50).HEXRGBA$$   \
+--ringver-color=$$ACCENT$$                            \
+                                                      \
+--insidewrong-color=$$BACKGROUND.alpha(-50).HEXRGBA$$ \
+--ringwrong-color=$$ERROR$$                           \
+                                                      \
+--inside-color=$$BACKGROUND.alpha(-50).HEXRGBA$$      \
+--ring-color=$$GOOD$$                                 \
+--line-color=$$BACKGROUND$$                           \
+--separator-color=$$BACKGROUND$$                      \
+                                                      \
+--verif-color=$$FOREGROUND$$	                      \
+--wrong-color=$$FOREGROUND$$                          \
+--time-color=$$FOREGROUND$$                           \
+--date-color=$$FOREGROUND$$                           \
+--layout-color=$$FOREGROUND$$                         \
+--keyhl-color=$$GOOD.darken(20)$$                     \
+--bshl-color=$$INFO$$                                 \
+                                                      \
+--screen 1                                            \
+--blur 5                                              \
+--clock                                               \
+--color=$$BACKGROUND$$                                \
+ 

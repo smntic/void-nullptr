@@ -1,0 +1,80 @@
+vim.cmd([[
+    set cursorline
+
+    set background=$$LIGHT?light:dark$$
+    hi clear
+
+    set termguicolors
+    set t_Co=256
+    let g:colors_name = "huemaster"
+
+    hi Normal guifg=$$FOREGROUND$$
+
+    hi! link NormalFloat Normal
+
+    hi LineNr guifg=$$COLOR15$$ guibg=NONE guisp=NONE gui=NONE
+    hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE
+
+    hi CursorLine guifg=NONE guibg=$$BACKGROUND$$ guisp=NONE gui=NONE
+    hi CursorLineNr guifg=$$COLOR15.lighten(30)$$ guibg=NONE guisp=NONE gui=NONE
+
+    hi StatusLine guifg=$$COLOR15$$ guibg=$$COLOR0$$ guisp=NONE gui=NONE
+    hi StatusLineNC guifg=$$COLOR15$$ guibg=$$COLOR0.darken(5)$$ guisp=NONE gui=NONE
+    hi PmenuSel guifg=$$COLOR15$$ guibg=$$COLOR0.darken(10)$$ guisp=NONE gui=NONE
+
+    hi Visual guifg=NONE guibg=$$COLOR0$$ guisp=NONE gui=NONE
+    hi! link Search Visual
+    hi! link MatchParen Visual
+
+    hi Identifier guifg=$$COLOR15$$ guibg=NONE guisp=NONE gui=NONE
+    hi Keyword guifg=$$COLOR1$$ guibg=NONE guisp=NONE gui=NONE
+    hi Statement guifg=$$COLOR2$$ guibg=NONE guisp=NONE gui=NONE
+    hi Function guifg=$$COLOR3$$ guibg=NONE guisp=NONE gui=NONE
+    hi PreProc guifg=$$COLOR4$$ guibg=NONE guisp=NONE gui=NONE
+    hi Constant guifg=$$COLOR5$$ guibg=NONE guisp=NONE gui=NONE
+    hi Type guifg=$$COLOR5.lighten(20)$$ guibg=NONE guisp=NONE gui=NONE
+    hi Operator guifg=$$COLOR6$$ guibg=NONE guisp=NONE gui=NONE
+    hi Comment guifg=$$COLOR15.darken(10)$$ guibg=NONE guisp=NONE gui=NONE
+
+    hi! link Label Identifier
+    hi! link StorageClass Keyword
+    hi! link Structure Keyword
+    hi! link Typedef Keyword
+    hi! link Conditional Statement
+    hi! link Repeat Statement
+    hi! link Macro PreProc
+    hi! link Include PreProc
+    hi! link Delimeter Operator
+    hi! link SpecialComment Comment
+
+    hi Special guifg=$$COLOR1$$ guibg=NONE guisp=NONE gui=NONE
+    hi Title guifg=$$COLOR5$$ guibg=NONE guisp=NONE gui=NONE
+    hi Todo guifg=$$INFO.lighten(44)$$ guibg=$$INFO.darken(44)$$ guisp=NONE gui=NONE
+
+    hi! link NonText Special
+    hi! link Question Special
+    hi! link Directory Title
+
+    hi DiagnosticError guifg=$$ERROR$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiagnosticWarn guifg=$$WARNING$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiagnosticInfo guifg=$$INFO$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiagnosticHint guifg=$$INFO.lighten(30)$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiagnosticOk guifg=$$GOOD$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=$$ERROR$$ gui=underline
+    hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=$$WARNING$$ gui=underline
+    hi DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=$$INFO$$ gui=underline
+    hi DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=$$INFO.lighten(30)$$ gui=underline
+    hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=$$GOOD$$ gui=underline
+
+    hi! link Error DiagnosticError
+    hi! link ErrorMsg DiagnosticError
+    hi! link WarningMsg DiagnosticWarn
+
+    hi DiffAdd guifg=$$GOOD$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiffChange guifg=$$INFO$$ guibg=NONE guisp=NONE gui=NONE
+    hi DiffDelete guifg=$$ERROR$$ guibg=NONE guisp=NONE gui=NONE
+
+    hi SpellBad guifg=NONE guibg=NONE guisp=$$ERROR$$ gui=undercurl
+    hi SpellRare guifg=NONE guibg=NONE guisp=$$WARNING$$ gui=undercurl
+    hi SpellLocal guifg=NONE guibg=NONE guisp=$$INFO$$ gui=undercurl
+]])
