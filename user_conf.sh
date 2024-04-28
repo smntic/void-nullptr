@@ -8,6 +8,8 @@ cp -r config/clang-format "$HOME"/.config/
 cp -r config/stylua "$HOME"/.config/
 cp -r config/redshift "$HOME"/.config/
 cp -r config/qt5ct "$HOME"/.config/
+cp -r config/picom "$HOME"/.config/
+cp -r config/ranger "$HOME"/.config/
 
 # Global (user) clang-format config
 ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME"
@@ -15,5 +17,4 @@ ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME"
 # Make lock executable before huemaster writes to it
 touch "$HOME"/bin/lock
 chmod +x "$HOME"/bin/lock
-
 
