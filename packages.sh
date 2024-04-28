@@ -18,7 +18,7 @@ xbps-install -y ranger atool
 # Development tools
 xbps-install -y git python3-virtualenv ffmpeg flex
 xbps-install -y make cmake gcc bear gdb
-xbps-install -y libeopencv-devel speech-dispatcher ntfs-3g
+xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
 xbps-install -y openjdk8 openjdk17
 
 # Other tools
@@ -48,7 +48,7 @@ xbps-install -y xss-lock xclip
 xbps-install -y redshift
 
 # Audio
-xbps-install -y pulseaudio also-plugins-pulseaudio pamixer
+xbps-install -y pulseaudio alsa-plugins-pulseaudio pamixer
 
 # Shell
 xbps-install -y zsh
