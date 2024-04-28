@@ -2,7 +2,7 @@
 
 # Virtualization (guest)
 if [[ "$1" == "--vm" ]]; then
-    ln -s /etc/sv/spice-vdagentd
+    ln -s /etc/sv/spice-vdagentd /var/service
 fi
 
 # Communication
