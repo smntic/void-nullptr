@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xbps-install -Rsy void-repo-nonfree void-repo-multilib
+xbps-install -Rs -y void-repo-nonfree void-repo-multilib
