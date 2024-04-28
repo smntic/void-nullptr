@@ -15,6 +15,7 @@ mkdir "$user_home"/pictures
 mkdir "$user_home"/public
 mkdir "$user_home"/templates
 mkdir "$user_home"/videos
+mkdir "$user_home"/.config
 
 # XDG user dirs config
 cp config/user-dirs.dirs "$user_home"/.config
