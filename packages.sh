@@ -29,7 +29,7 @@ xbps-install -y ImageMagick flameshot
 xbps-install -y autorandr kdeconnect xdg-mime xdg-user-dirs
 
 # Text editors and IDEs
-xbps-install -y kate neovim vscode
+xbps-install -y kate5 neovim vscode
 
 # Graphics and media
 xbps-install -y krita gwenview feh blender godot obs vlc
