@@ -16,6 +16,8 @@ mkdir "$HOME"/public
 mkdir "$HOME"/templates
 mkdir "$HOME"/videos
 mkdir "$HOME"/.config
+mkdir -p "$HOME"/.local/share/applications
+mkdir -p "$HOME"/.icons
 
 # XDG HOME dirs config
 cp config/user-dirs.dirs "$HOME"/.config
