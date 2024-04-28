@@ -10,6 +10,7 @@ cp -r config/redshift "$HOME"/.config/
 cp -r config/qt5ct "$HOME"/.config/
 cp -r config/picom "$HOME"/.config/
 cp -r config/ranger "$HOME"/.config/
+cp -r config/fontconfig "$HOME"/.config/
 
 # Copy some individual files
 cp -r config/mimeapps.list "$HOME"/.config/
