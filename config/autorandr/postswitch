@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/home/simon/bin/wacom_setup.sh
+/home/simon/bin/load_wallpaper.sh
