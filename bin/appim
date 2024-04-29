@@ -116,7 +116,7 @@ EOF
     # binary file creation
 cat << EOF > "$HOME"/bin/"$filenameonlylower"
 #!/bin/bash
-exec $appdir/$filename "\$@"
+    exec $appdir/$filename "\$@"
 EOF
     chmod +x "$HOME"/bin/"$filenameonlylower"
 

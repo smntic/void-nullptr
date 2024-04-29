@@ -20,7 +20,7 @@ xbps-install -y ranger atool
 
 # Development tools
 xbps-install -y git python3-virtualenv ffmpeg flex
-xbps-install -y make cmake gcc bear gdb
+xbps-install -y make cmake gcc Bear gdb
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
 xbps-install -y openjdk8 openjdk17
 
@@ -29,7 +29,7 @@ xbps-install -y htop neofetch psmisc CPU-X hdparm
 xbps-install -y yt-dlp git wget curl
 xbps-install -y fzf pnpm xtools ark ripgrep unzip
 xbps-install -y ImageMagick flameshot
-xbps-install -y autorandr kdeconnect xdg-mime xdg-user-dirs
+xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 
 # Text editors and IDEs
 xbps-install -y kate5 neovim vscode
@@ -38,7 +38,7 @@ xbps-install -y kate5 neovim vscode
 xbps-install -y krita gwenview feh blender godot obs vlc
 
 # Office and productivity
-xbps-install -y libreoffice obsidian
+xbps-install -y libreoffice
 
 # Fonts
 xbps-install -y noto-fonts-emoji noto-fonts-cjk nerd-fonts-symbols-ttf
@@ -69,7 +69,7 @@ xbps-install -y fcitx5 fcitx5-mozc fcitx5-qt fcitx5-gtk fcitx5-gtk+2 fcitx5-gtk+
 xbps-install -y flatpak
 
 # Wine
-xbps-install -y wine winetricks wine-32bit
+xbps-install -y wine winetricks
 
 # Network
 xbps-install -y NetworkManager network-manager-applet
