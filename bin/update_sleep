@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo bash << EOF
+lock
+xbps-install -Syu
+zzz
+EOF
+
