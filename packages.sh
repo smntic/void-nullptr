@@ -9,6 +9,9 @@ fi
 xbps-install -y xorg
 xbps-install -y dbus elogind
 
+# Terminals
+xbps-install -y alacritty
+
 # Web browsers
 xbps-install -y firefox chromium
 
