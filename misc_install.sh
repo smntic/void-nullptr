@@ -15,3 +15,8 @@ make install
 cd ..
 rm -rf HueMaster
 
+# ===== Flatpak =====
+
+# Add Flathub repository
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
