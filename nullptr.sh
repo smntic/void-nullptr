@@ -8,10 +8,12 @@ sudo bash << EOF
 ./services.sh "$@"
 ./fonts.sh "$@"
 ./xorg_conf.sh "$@"
+./precomp_headers.sh "$@"
 
 EOF
 
 ./folders.sh "$@"
+./user_install.sh "$@"
 ./user_conf.sh "$@"
 ./desktop.sh "$@"
 ./huemaster.sh "$@"

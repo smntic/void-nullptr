@@ -33,3 +33,6 @@ mkdir "$HOME"/.config/qt5ct
 mkdir -p "$HOME"/.local/share/fcitx5/themes/default-dark
 mkdir "$HOME"/.config/flameshot
 
+# cp-tool template folder
+mkdir -p "$HOME"/.local/share/cp-tool
+

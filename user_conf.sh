@@ -16,6 +16,7 @@ cp -r config/fontconfig "$HOME"/.config/
 cp -r config/mimeapps.list "$HOME"/.config/
 cp -r config/.xprofile "$HOME"
 cp -r config/.zshenv "$HOME"
+cp -r cpt/template.cpp "$HOME"/.local/share/cp-tool/
 
 # Global (user) clang-format config
 ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME"
