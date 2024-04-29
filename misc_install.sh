@@ -38,7 +38,9 @@ unzip commandlinetools-linux-11076708_latest.zip
 mv cmdline-tools tools
 mkdir cmdline-tools
 mv tools cmdline-tools/tools
+cd cmdline-tools/tools/bin
 
 # Accept licenses (don't tell them!)
 yes | ./sdkmanager --licenses
+popd
 
