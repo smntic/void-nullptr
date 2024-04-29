@@ -2,20 +2,20 @@
 
 sudo bash << EOF
 
-./repositories.sh "$@"
-./packages.sh "$@"
-./misc_install.sh "$@"
-./services.sh "$@"
-./fonts.sh "$@"
-./xorg_conf.sh "$@"
-./precomp_headers.sh "$@"
+./src/repositories.sh "$@"
+./src/packages.sh "$@"
+./src/misc_install.sh "$@"
+./src/services.sh "$@"
+./src/fonts.sh "$@"
+./src/xorg_conf.sh "$@"
+./src/precomp_headers.sh "$@"
 
 EOF
 
-./folders.sh "$@"
-./user_bin.sh "$@"
-./user_conf.sh "$@"
-./user_install.sh "$@"
-./desktop.sh "$@"
-./cursors.sh "$@"
+./src/folders.sh "$@"
+./src/user_bin.sh "$@"
+./src/user_conf.sh "$@"
+./src/user_install.sh "$@"
+./src/desktop.sh "$@"
+./src/cursors.sh "$@"
 

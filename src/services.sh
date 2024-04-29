@@ -20,3 +20,8 @@ if ! [[ "$1" == "--vm" ]]; then
     ln -s /etc/sv/polkitd /var/service
 fi
 
+# Network
+ln -s /etc/sv/NetworkManager /var/service
+rm /var/service/dhcpcd
+rm /var/service/wpa_supplicant
+

@@ -71,3 +71,6 @@ xbps-install -y flatpak
 # Wine
 xbps-install -y wine winetricks wine-32bit
 
+# Network
+xbps-install -y NetworkManager network-manager-applet
+

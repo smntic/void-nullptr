@@ -14,11 +14,18 @@ general {
         interval = 1
 }
 
-order += "ethernet _first_"
+order += "wireless _first_"
+# order += "ethernet _first_"
 order += "battery all"
 order += "disk /"
 order += "memory"
+order += "battery all"
 order += "volume master"
+
+wireless _first_ {
+        format_up = "  %essid %quality : %ip "
+        format_down = " 󰖪 down "
+}
 
 ethernet _first_ {
         format_up = "  %ip (%speed) "
@@ -33,6 +40,10 @@ memory {
         format = "  󰍛 %used "
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
+}
+
+battery all {
+    format = "%status %percentage %remaining"
 }
 
 volume master {

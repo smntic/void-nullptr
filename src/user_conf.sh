@@ -21,6 +21,7 @@ cp -r config/fcitx5-theme "$HOME"/.local/share/fcitx5/themes/
 # Copy some individual files
 cp -r config/mimeapps.list "$HOME"/.config/
 cp -r config/.xprofile "$HOME"
+cp -r config/.bash_profile "$HOME"
 cp -r config/.zshenv "$HOME"
 cp -r cpt/template.cpp "$HOME"/.local/share/cp-tool/
 

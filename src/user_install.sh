@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # ===== cp-tool =====
+pushd "$HOME"/git
 git clone https://github.com/smnast/cp-tool
 ln -s cp-tool/cpt "$HOME"/bin/
 ln -s cp-tool/cp-tool.py "$HOME"/bin/
-rm -rf cp-tool
+popd
 
 # ===== Obsidian =====
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/Obsidian-1.5.12.AppImage
