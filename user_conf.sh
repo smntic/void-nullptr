@@ -12,6 +12,10 @@ cp -r config/picom "$HOME"/.config/
 cp -r config/ranger "$HOME"/.config/
 cp -r config/fontconfig "$HOME"/.config/
 cp -r config/autorandr "$HOME"/.config/
+cp -r config/fcitx5 "$HOME"/.config/
+
+# Copy fcitx5 theme
+cp -r config/fcitx5-theme "$HOME"/.local/share/fcitx5/themes/
 
 # Copy some individual files
 cp -r config/mimeapps.list "$HOME"/.config/
