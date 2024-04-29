@@ -13,6 +13,7 @@ cp -r config/ranger "$HOME"/.config/
 cp -r config/fontconfig "$HOME"/.config/
 cp -r config/autorandr "$HOME"/.config/
 cp -r config/fcitx5 "$HOME"/.config/
+cp -r "config/Code - OSS" "$HOME"/.config/
 
 # Copy fcitx5 theme
 cp -r config/fcitx5-theme "$HOME"/.local/share/fcitx5/themes/
