@@ -13,6 +13,7 @@ EOF
 
 ./folders.sh "$@"
 ./user_conf.sh "$@"
+./user_bin.sh "$@"
 ./desktop.sh "$@"
 ./huemaster.sh "$@"
 ./cursors.sh "$@"
