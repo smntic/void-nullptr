@@ -7,8 +7,12 @@ git clone https://github.com/smnast/void-nullptr
 ```
 
 ## Usage
-On a base Void Linux installation (not quite sure at what point yet, maybe before void-install), run `nullptr.sh`\
-If on a virtual machine, it might be necessary to run `nullptr.sh --vm`, otherwise the installation script will setup `libvirtd` which may cause some problems with nested virtualization.
+After running `void-installer` to install the system and rebooting, run:
+```
+./nullptr.sh
+```
+It will ask for sudo password, and then set up the rest of the system.\
+You will need a ~/.wallpaper file and run `huemaster` as well.
 
 ## Credits
-- This repository will feature a modified version of [appim](https://github.com/fralnz/appim)
+- This repository features a modified version of [appim](https://github.com/fralnz/appim)
