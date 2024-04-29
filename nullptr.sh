@@ -13,9 +13,9 @@ sudo bash << EOF
 EOF
 
 ./folders.sh "$@"
-./user_install.sh "$@"
-./user_conf.sh "$@"
 ./user_bin.sh "$@"
+./user_conf.sh "$@"
+./user_install.sh "$@"
 ./desktop.sh "$@"
 ./huemaster.sh "$@"
 ./cursors.sh "$@"
