@@ -42,7 +42,11 @@ memory {
 }
 
 battery all {
-    format = "%status %percentage %remaining"
+        format = "‌ %status %percentage ‌"
+        status_chr = " "
+        status_full = " 󰚥"
+        status_bat = " 󱐤"
+        status_unk = " "
 }
 
 volume master {

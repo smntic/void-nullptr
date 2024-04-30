@@ -169,7 +169,7 @@ bar {
 	i3bar_command i3bar --transparency
         tray_output none
 
-	font pango:Hack 9
+	font pango:monospace 9
 
 	colors {
 		background $$BACKGROUND.alpha(-20).HEXRGBA$$
