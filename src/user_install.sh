@@ -3,8 +3,8 @@
 # ===== cp-tool =====
 pushd "$HOME"/git
 git clone https://github.com/smnast/cp-tool
-ln -s cp-tool/cpt "$HOME"/bin/
-ln -s cp-tool/cp-tool.py "$HOME"/bin/
+ln -s "$HOME"/git/cp-tool/cpt "$HOME"/bin/
+ln -s "$HOME"/git/cp-tool/cp-tool.py "$HOME"/bin/
 popd
 
 # ===== Obsidian =====
