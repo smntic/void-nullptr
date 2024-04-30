@@ -25,3 +25,6 @@ ln -s /etc/sv/NetworkManager /var/service
 rm /var/service/dhcpcd
 rm /var/service/wpa_supplicant
 
+# ACPI
+rm /var/service/acpid
+
