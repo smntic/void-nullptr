@@ -2,6 +2,8 @@
 
 sudo bash << EOF
 
+xbps-install -Syu
+
 ./src/repositories.sh "$@"
 ./src/packages.sh "$@"
 ./src/misc_install.sh "$@"

@@ -69,7 +69,7 @@ xbps-install -y fcitx5 fcitx5-mozc fcitx5-qt fcitx5-gtk fcitx5-gtk+2 fcitx5-gtk+
 xbps-install -y flatpak
 
 # Wine
-xbps-install -y wine winetricks
+xbps-install -y wine winetricks wine-32bit
 
 # Network
 xbps-install -y NetworkManager network-manager-applet
