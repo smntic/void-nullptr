@@ -15,4 +15,6 @@ application/x-sh=kate.desktop
 application/x-python-script=kate.desktop
 application/x-desktop=kate.desktop
 application/x-executable=kate.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 
