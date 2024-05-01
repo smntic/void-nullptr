@@ -11,13 +11,13 @@ end
 
 function Run_cpp()
     local output_filename = vim.fn.expand('%:p:r')
-    vim.cmd(':TermExec cmd="' .. output_filename .. '" <CR>')
+    vim.cmd(':TermExec cmd="' .. output_filename .. '" go_back=0  <CR>')
 end
 
 function Run_python()
     local filename = vim.fn.expand('%:p')
     local command = string.format('python %s', filename)
-    vim.cmd(':TermExec cmd="' .. command .. '" <CR>')
+    vim.cmd(':TermExec cmd="' .. command .. '"  go_back=0 <CR>')
 end
 
 -- C++
