@@ -28,3 +28,6 @@ rm /var/service/wpa_supplicant
 # ACPI
 rm /var/service/acpid
 
+# Cronie
+ln -s /etc/sv/cronie /var/service
+
