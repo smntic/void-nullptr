@@ -209,4 +209,4 @@ exec --no-startup-id /home/simon/bin/load_wallpaper.sh
 exec --no-startup-id picom -b
 exec --no-startup-id fcitx5 -d > /dev/null 2>&1
 exec --no-startup-id /usr/libexec/kdeconnectd
-exec --no-startup-id redshift
+exec --no-startup-id redshift-gtk
