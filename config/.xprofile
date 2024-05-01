@@ -4,3 +4,5 @@ export SDL_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 export XIM_PROGRAM=/usr/bin/fcitx5
 
+export WINIT_X11_SCALE_FACTOR=1
+
