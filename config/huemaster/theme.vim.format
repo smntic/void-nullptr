@@ -22,6 +22,8 @@ vim.cmd([[
     hi StatusLineNC guifg=$$COLOR15$$ guibg=$$COLOR0.darken(5)$$ guisp=NONE gui=NONE
     hi PmenuSel guifg=$$COLOR15$$ guibg=$$COLOR0.darken(10)$$ guisp=NONE gui=NONE
 
+    hi Pmenu guifg=$$COLOR15$$ guibg=$$COLOR0$$ guisp=NONE gui=NONE
+
     hi Visual guifg=NONE guibg=$$COLOR0$$ guisp=NONE gui=NONE
     hi! link Search Visual
     hi! link MatchParen Visual
