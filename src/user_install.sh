@@ -9,7 +9,7 @@ popd
 
 # ===== Obsidian =====
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/Obsidian-1.5.12.AppImage
-"$HOME"/bin/appim -i Obsidian-1.5.12.AppImage
+"$HOME"/bin/appim -i Obsidian-1.5.12.AppImage -b obsidian
 rm Obsidian-1.5.12.AppImage
 
 # ===== Miniconda =====

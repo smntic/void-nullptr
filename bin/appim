@@ -4,7 +4,7 @@
 
 if [[ $1 != -* ]]
 then
-    echo "Options: [-i,-s] [-r] <file name>"
+    echo "Options: [-i,-s,-r] <file name> [-b <binary name>]"
     exit 0
 fi
 
@@ -30,6 +30,19 @@ tempdir="$(mktemp -ut appim.XXXXXX)"
 appdir="$HOME/apps"
 icondir="$HOME/.local/share/icons"
 
+if [[ $3 == "-b" ]]
+then
+    if [[ $4 == "" ]]
+    then
+        echo "Options: [-i,-s,-r] <file name> [-b <binary name>]"
+        exit 0
+    fi
+
+    binaryname=$4
+else
+    binaryname=$filenameonlylower
+fi
+
 checkappimage(){
     if [[ $file == ?*.AppImage || $file == ?*.appimage ]]    #checks if the file is an AppImage
     then
@@ -50,7 +63,7 @@ uninstall(){
     checkappimage
     rm "$appdir"/"$filename" &>/dev/null && echo -e "${OK} Removed appimage" || echo -e "${ERR} Can't find appimage"
     rm "$HOME"/.local/share/applications/"$desktopentry" &>/dev/null && echo -e "${OK} Removed desktop entry" || echo -e "${ERR} Can't find desktop entry"
-    rm "$HOME"/bin/"$filenameonly" &>/dev/null && echo -e "${OK} Removed binary" || echo -e "${ERR} Can't find binary"
+    rm "$HOME"/bin/"$binaryname" &>/dev/null && echo -e "${OK} Removed binary" || echo -e "${ERR} Can't find binary"
     rm "$HOME"/.local/share/icons/"$filename".png &>/dev/null && echo -e "${OK} Removed icon" || echo -e "${ERR} Can't find icon"
     echo -e "${DONE} $filename uninstalled"
     exit 0
@@ -114,11 +127,11 @@ EOF
     echo -e "${OK} Desktop entry created"
 
     # binary file creation
-cat << EOF > "$HOME"/bin/"$filenameonlylower"
+cat << EOF > "$HOME"/bin/"$binaryname"
 #!/bin/bash
-    exec $appdir/$filename "\$@"
+exec $appdir/$filename "\$@"
 EOF
-    chmod +x "$HOME"/bin/"$filenameonlylower"
+    chmod +x "$HOME"/bin/"$binaryname"
 
     echo -e "${OK} Binary created"
 
