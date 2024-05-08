@@ -5,7 +5,9 @@ local M = {
 
 M.config = function()
     local blankline = require('ibl')
-    blankline.setup()
+    blankline.setup({
+        debounce = 1000,
+    })
 end
 
 return M

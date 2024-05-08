@@ -31,6 +31,7 @@ xbps-install -y fzf pnpm xtools ark ripgrep unzip
 xbps-install -y ImageMagick flameshot
 xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie
+xbps-install -y cloc
 
 # Text editors and IDEs
 xbps-install -y kate5 neovim vscode

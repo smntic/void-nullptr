@@ -205,10 +205,13 @@ title_align center
 exec --no-startup-id i3-msg 'workspace 2; workspace 3; workspace 1'
 
 # Startup programs go here
-exec --no-startup-id /home/simon/bin/load_wallpaper.sh
 exec --no-startup-id /home/simon/bin/wacom_setup.sh
 exec --no-startup-id picom -b
 exec --no-startup-id fcitx5 -d > /dev/null 2>&1
 exec --no-startup-id /usr/libexec/kdeconnectd
 exec --no-startup-id redshift-gtk
 exec --no-startup-id nm-applet
+
+# exec_always will run the command every time the i3 config is reloaded
+exec_always --no-startup-id /home/simon/bin/load_wallpaper.sh
+
