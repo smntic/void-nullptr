@@ -17,6 +17,8 @@ i3lock                                                \
 --time-color=$$FOREGROUND$$                           \
 --date-color=$$FOREGROUND$$                           \
 --layout-color=$$FOREGROUND$$                         \
+--layout-color=$$FOREGROUND$$                         \
+--modif-color=$$FOREGROUND$$                          \
 --keyhl-color=$$GOOD.darken(20)$$                     \
 --bshl-color=$$INFO$$                                 \
                                                       \
