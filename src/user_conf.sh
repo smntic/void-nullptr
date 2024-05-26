@@ -26,7 +26,7 @@ cp -r config/.zshenv "$HOME"
 cp -r cpt/template.cpp "$HOME"/.local/share/cp-tool/
 
 # Global (user) clang-format config
-ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME"
+ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME/.clang-format"
 
 # Make lock executable before huemaster writes to it
 touch "$HOME"/bin/lock
