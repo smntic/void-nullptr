@@ -33,9 +33,13 @@ real_path = "/home/simon/.gtkrc-2.0"
 format_path = "/home/simon/.config/huemaster/gtk-3.0.settings.format"
 real_path = "/home/simon/.config/gtk-3.0/settings.ini"
 
-[theme-vim]
-format_path = "/home/simon/.config/huemaster/theme.vim.format"
-real_path = "/home/simon/.config/nvim/lua/theme/theme.lua"
+[vim-theme]
+format_path = "/home/simon/.config/huemaster/theme_vim.format"
+real_path = "/home/simon/.config/nvim/lua/themes/huemaster.lua"
+
+[vim-theme-syntax]
+format_path = "/home/simon/.config/huemaster/theme_syntax_vim.format"
+real_path = "/home/simon/.config/nvim/lua/themes/huemaster_syntax.lua"
 
 [kdeglobals]
 format_path = "/home/simon/.config/huemaster/kdeglobals.format"
@@ -44,6 +48,10 @@ real_path = "/home/simon/.config/kdeglobals"
 [qt5ct]
 format_path = "/home/simon/.config/huemaster/qt5ct.format"
 real_path = "/home/simon/.config/qt5ct/qt5ct.conf"
+
+[qt6ct]
+format_path = "/home/simon/.config/huemaster/qt5ct.format"
+real_path = "/home/simon/.config/qt6ct/qt6ct.conf"
 
 [fcitx5]
 format_path = "/home/simon/.config/huemaster/fcitx5.format"

@@ -7,6 +7,7 @@ cp -r config/clang-format "$HOME"/.config/
 cp -r config/stylua "$HOME"/.config/
 cp -r config/redshift "$HOME"/.config/
 cp -r config/qt5ct "$HOME"/.config/
+cp -r config/qt6ct "$HOME"/.config/
 cp -r config/picom "$HOME"/.config/
 cp -r config/ranger "$HOME"/.config/
 cp -r config/fontconfig "$HOME"/.config/

@@ -1,0 +1,22 @@
+vim.cmd([[
+    hi Identifier guifg=$$COLOR15$$ guibg=NONE guisp=NONE gui=NONE
+    hi Keyword guifg=$$COLOR1$$ guibg=NONE guisp=NONE gui=NONE
+    hi Statement guifg=$$COLOR2$$ guibg=NONE guisp=NONE gui=NONE
+    hi Function guifg=$$COLOR6$$ guibg=NONE guisp=NONE gui=NONE
+    hi PreProc guifg=$$COLOR4$$ guibg=NONE guisp=NONE gui=NONE
+    hi Constant guifg=$$COLOR5$$ guibg=NONE guisp=NONE gui=NONE
+    hi Type guifg=$$COLOR3$$ guibg=NONE guisp=NONE gui=NONE
+    hi Comment guifg=$$COLOR7$$ guibg=NONE guisp=NONE gui=NONE
+
+    hi! link Label Identifier
+    hi! link Operator Identifier
+    hi! link StorageClass Keyword
+    hi! link Structure Keyword
+    hi! link Typedef Keyword
+    hi! link Conditional Statement
+    hi! link Repeat Statement
+    hi! link Macro PreProc
+    hi! link Include PreProc
+    hi! link Delimeter Operator
+    hi! link SpecialComment Comment
+]])

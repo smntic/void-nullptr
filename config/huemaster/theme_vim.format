@@ -1,0 +1,61 @@
+local M = {}
+
+M.base_30 = {
+  white = "$$FOREGROUND$$",
+  darker_black = "$$BACKGROUND.darken(6)$$",
+  black = "$$BACKGROUND$$", --  nvim bg
+  black2 = "$$BACKGROUND.lighten(6)$$",
+  one_bg = "$$BACKGROUND.lighten(10)$$",
+  one_bg2 = "$$BACKGROUND.lighten(16)$$",
+  one_bg3 = "$$BACKGROUND.lighten(22)$$",
+  grey = "$$BACKGROUND.lighten(40)$$",
+  grey_fg = "$$COLOR7$$",
+  grey_fg2 = "$$COLOR15$$",
+  light_grey = "$$BACKGROUND.lighten(62)$$",
+  red = "$$ERROR$$",
+  baby_pink = "$$ERROR.lighten(20)$$",
+  pink = "$$ERROR.lighten(40)$$",
+  line = "$$ACCENT$$", -- for lines like vertsplit
+  green = "$$GOOD$$",
+  green1 = "$$GOOD.lighten(10)$$",
+  vibrant_green = "$$GOOD.lighten(20)$$",
+  blue = "$$INFO$$",
+  nord_blue = "$$INFO.lighten(10)$$",
+  yellow = "$$WARNING$$",
+  sun = "$$WARNING.lighten(10)$$",
+  purple = "$$COLOR1$$",
+  dark_purple = "$$COLOR1.darken(10)$$",
+  teal = "$$COLOR2$$",
+  orange = "$$COLOR3$$",
+  cyan = "$$FOREGROUND$$",
+  statusline_bg = "$$COLOR0$$",
+  lightbg = "$$COLOR0.lighten(10)$$",
+  pmenu_bg = "$$COLOR0$$",
+  folder_bg = "$$COLOR4$$",
+}
+
+M.base_16 = {
+  base00 = "$$BACKGROUND$$",
+  base01 = "$$BACKGROUND.lighten(6)$$",
+  base02 = "$$BACKGROUND.lighten(10)$$",
+  base03 = "$$BACKGROUND.lighten(16)$$",
+  base04 = "$$BACKGROUND.lighten(22)$$",
+  base05 = "$$FOREGROUND.darken(5)$$",
+  base06 = "$$FOREGROUND$$",
+  base07 = "$$FOREGROUND$$",
+  base08 = "$$COLOR1$$",
+  base09 = "$$COLOR2$$",
+  base0A = "$$COLOR3$$",
+  base0B = "$$COLOR4$$",
+  base0C = "$$COLOR5$$",
+  base0D = "$$COLOR6$$",
+  base0E = "$$COLOR1.lighten(15)$$",
+  base0F = "$$COLOR2.lighten(15)$$",
+}
+
+M.type = "$$LIGHT?light:dark$$"
+
+M = require("base46").override_theme(M, "huemaster")
+
+return M
+
