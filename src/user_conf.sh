@@ -3,7 +3,6 @@
 # Copy main config folders
 cp -r config/huemaster "$HOME"/.config/
 cp -r config/zsh "$HOME"/.config/
-cp -r config/nvim "$HOME"/.config/
 cp -r config/clang-format "$HOME"/.config/
 cp -r config/stylua "$HOME"/.config/
 cp -r config/redshift "$HOME"/.config/
@@ -31,4 +30,7 @@ ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME/.clang-format"
 # Make lock executable before huemaster writes to it
 touch "$HOME"/bin/lock
 chmod +x "$HOME"/bin/lock
+
+# Clone nvim-config
+git clone https://github.com/smnast/nvim-config.git ~/.config/nvim
 
