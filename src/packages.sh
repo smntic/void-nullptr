@@ -20,7 +20,7 @@ xbps-install -y ranger atool
 
 # Development tools
 xbps-install -y git python3-virtualenv ffmpeg flex
-xbps-install -y make cmake gcc Bear gdb
+xbps-install -y make cmake gcc Bear gdb scons
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
 xbps-install -y openjdk8 openjdk17
 
