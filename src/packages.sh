@@ -34,6 +34,9 @@ xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie
 xbps-install -y cloc
 
+# Packages for splatmoji
+xbps-install -y rofi xdotool xsel
+
 # Text editors and IDEs
 xbps-install -y kate5 neovim vscode
 

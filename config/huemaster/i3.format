@@ -53,6 +53,9 @@ bindsym $mod+$shift+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -nb '
 # take a screenshot
 bindsym $mod+$print exec --no-startup-id flameshot gui
 
+# emoji keyboard
+bindsym $mod+period exec --no-startup-id splatmoji type
+
 # lock screen
 bindsym $ctrl+$alt+l exec --no-startup-id lock
 

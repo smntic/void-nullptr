@@ -61,3 +61,7 @@ real_path = "/home/simon/.local/share/fcitx5/themes/default-dark/theme.conf"
 format_path = "/home/simon/.config/huemaster/flameshot.format"
 real_path = "/home/simon/.config/flameshot/flameshot.ini"
 
+[rofi]
+format_path = "/home/simon/.config/huemaster/rofi.format"
+real_path = "/home/simon/.config/rofi/huemaster.rasi"
+
