@@ -19,7 +19,7 @@ xbps-install -y firefox chromium
 xbps-install -y ranger atool
 
 # Development tools
-xbps-install -y git python3-virtualenv ffmpeg flex
+xbps-install -y git python3-virtualenv ffmpeg flex ncurses-devel
 xbps-install -y make cmake gcc Bear gdb
 xbps-install -y scons pkgconf
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
