@@ -195,9 +195,9 @@ default_border pixel 1
 default_floating_border pixel 1
 
 # class                 border     bground    text           indicator  child_border
-client.focused          $$ACCENT.lighten(10)$$ $$ACCENT$$ $$FOREGROUND$$ $$ACCENT.lighten(40)$$ $$ACCENT$$
-client.focused_inactive $$ACCENT$$ $$ACCENT.darken(40)$$ $$FOREGROUND.darken(10)$$    $$ACCENT$$ $$ACCENT.darken(20)$$
-client.unfocused        $$ACCENT.darken(20)$$ $$ACCENT.darken(40)$$ $$FOREGROUND.darken(10)$$    $$ACCENT$$ $$ACCENT.darken(20)$$
+client.focused          $$ACCENT.lighten(10)$$ $$ACCENT$$ $$ACCENT.darken(40)$$ $$ACCENT.lighten(40)$$ $$ACCENT$$
+client.focused_inactive $$ACCENT$$ $$ACCENT.darken(40)$$ $$ACCENT.darken(20)$$    $$ACCENT$$ $$ACCENT.darken(20)$$
+client.unfocused        $$ACCENT.darken(20)$$ $$ACCENT.darken(40)$$ $$ACCENT.darken(20)$$    $$ACCENT$$ $$ACCENT.darken(20)$$
 
 client.background       $$ACCENT$$
 
