@@ -170,7 +170,7 @@ bar {
 	position top
 	status_command i3status
 	i3bar_command i3bar --transparency
-        tray_output none
+    tray_output none
 
 	font pango:monospace 9
 
@@ -182,7 +182,7 @@ bar {
 		focused_workspace    $$ACCENT.lighten(10)$$ $$ACCENT$$ $$ACCENT.darken(40)$$
 		active_workspace     $$ACCENT$$ $$ACCENT.darken(10)$$ $$ACCENT.darken(60)$$
 		inactive_workspace   $$ACCENT.darken(10)$$ $$ACCENT.darken(20)$$ $$ACCENT.darken(40)$$
-		urgent_workspace     $$ERROR$$ $$ERROR$$ $$FOREGROUND$$
+		urgent_workspace     $$ERROR$$ $$ERROR$$ $$ERROR.darken(40)$$
 	}
 }
 
