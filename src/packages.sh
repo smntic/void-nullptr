@@ -5,6 +5,9 @@ if [[ "$1" == "--vm" ]]; then
     xbps-install -y qemu-ga spice-vdagent
 fi
 
+# Docker
+sudo xbps-install -S docker docker-compose
+
 # Xorg and display manager
 xbps-install -y xorg
 xbps-install -y dbus elogind

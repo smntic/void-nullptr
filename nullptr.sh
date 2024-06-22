@@ -7,6 +7,7 @@ xbps-install -Syu
 ./src/repositories.sh "$@"
 ./src/packages.sh "$@"
 ./src/misc_install.sh "$@"
+./src/groups.sh "$@"
 ./src/services.sh "$@"
 ./src/fonts.sh "$@"
 ./src/xorg_conf.sh "$@"
