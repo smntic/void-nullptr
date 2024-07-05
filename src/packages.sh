@@ -85,3 +85,5 @@ xbps-install -y wine winetricks wine-32bit
 # Network
 xbps-install -y NetworkManager network-manager-applet
 
+# Java
+xbps-install -y openjdk21
