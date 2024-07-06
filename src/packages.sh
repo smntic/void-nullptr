@@ -33,7 +33,7 @@ xbps-install -y openjdk8 openjdk17
 # Other tools
 xbps-install -y htop neofetch psmisc CPU-X hdparm
 xbps-install -y yt-dlp git wget curl
-xbps-install -y fzf pnpm xtools ark ripgrep unzip
+xbps-install -y fzf pnpm xtools dolphin ark ripgrep unzip
 xbps-install -y ImageMagick flameshot
 xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie
