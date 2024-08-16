@@ -59,7 +59,7 @@ xbps-install -y i3 i3status i3lock-color picom dunst dmenu
 xbps-install -y breeze breeze-gtk
 xbps-install -y qt5ct
 xbps-install -y xss-lock xclip
-xbps-install -y redshift
+xbps-install -y redshift brightnessctl
 
 # Audio
 xbps-install -y pulseaudio alsa-plugins-pulseaudio pamixer
