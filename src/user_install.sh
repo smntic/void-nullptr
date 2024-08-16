@@ -24,3 +24,8 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p "$HOME"/bin/miniconda
 rm Miniconda3-latest-Linux-x86_64.sh
 
+# ===== Mujoco =====
+wget https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz
+mkdir "$HOME"/.mujoco
+tar -xf mujoco210-linux-x86_64.tar.gz -C "$HOME"/.mujoco
+rm mujoco210-linux-x86_64.tar.gz

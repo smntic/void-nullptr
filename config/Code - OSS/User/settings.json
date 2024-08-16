@@ -1,4 +1,11 @@
 {
     "workbench.startupEditor": "none",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "python.languageServer": "Pylance",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "pylint.args": [
+        "--disable=C0111,E1133,E1136,E1137"
+    ],
+    "keyboard.dispatch": "keyCode"
 }

@@ -35,3 +35,6 @@ chmod +x "$HOME"/bin/lock
 # Clone nvim-config
 git clone https://github.com/smnast/nvim-config.git ~/.config/nvim
 
+# Copy code-oss settings
+cp -r config/"Code - OSS" "$HOME"/.config/
+

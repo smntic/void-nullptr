@@ -6,7 +6,7 @@ if [[ "$1" == "--vm" ]]; then
 fi
 
 # Docker
-sudo xbps-install -S docker docker-compose
+sudo xbps-install -S docker docker-compose podman
 
 # Xorg and display manager
 xbps-install -y xorg
@@ -37,7 +37,7 @@ xbps-install -y fzf pnpm xtools dolphin ark ripgrep unzip
 xbps-install -y ImageMagick flameshot
 xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie
-xbps-install -y cloc
+xbps-install -y cloc strace
 
 # Packages for splatmoji
 xbps-install -y rofi xdotool xsel
