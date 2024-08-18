@@ -23,6 +23,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p "$HOME"/bin/miniconda
 rm Miniconda3-latest-Linux-x86_64.sh
+ln -sf /usr/lib/libstdc++.so.6 ${CONDA_PREFIX}/lib/libstdc++.so.6
 
 # ===== Mujoco =====
 wget https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz

@@ -19,6 +19,7 @@ EOF
 ./src/user_bin.sh "$@"
 ./src/user_conf.sh "$@"
 ./src/user_install.sh "$@"
+./src/python_install.sh "$@"
 ./src/desktop.sh "$@"
 ./src/cursors.sh "$@"
 
