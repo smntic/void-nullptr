@@ -1,4 +1,4 @@
 #!/bin/bash
 
-usermod -aG docker simon
+usermod -aG docker,libvirt simon
 
