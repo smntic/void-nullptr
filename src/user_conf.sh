@@ -10,6 +10,7 @@ cp -r config/qt5ct "$HOME"/.config/
 cp -r config/qt6ct "$HOME"/.config/
 cp -r config/picom "$HOME"/.config/
 cp -r config/ranger "$HOME"/.config/
+cp -r config/rofi "$HOME"/.config/
 cp -r config/fontconfig "$HOME"/.config/
 cp -r config/autorandr "$HOME"/.config/
 cp -r config/fcitx5 "$HOME"/.config/
