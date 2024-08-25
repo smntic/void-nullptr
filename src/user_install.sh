@@ -14,9 +14,9 @@ ln -s "$HOME"/git/splatmoji/splatmoji "$HOME"/bin/
 popd
 
 # ===== Obsidian =====
-wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/Obsidian-1.5.12.AppImage
-"$HOME"/bin/appim -i Obsidian-1.5.12.AppImage -b obsidian
-rm Obsidian-1.5.12.AppImage
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/Obsidian-1.6.7.AppImage
+"$HOME"/bin/appim -i Obsidian-1.6.7.AppImage -b obsidian
+rm Obsidian-1.6.7.AppImage
 
 # ===== Miniconda =====
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
