@@ -38,6 +38,7 @@ xbps-install -y ImageMagick flameshot
 xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie
 xbps-install -y cloc strace
+xbps-install -y gparted
 
 # Packages for splatmoji
 xbps-install -y rofi xdotool xsel
