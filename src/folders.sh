@@ -28,7 +28,6 @@ mkdir "$HOME"/.config/i3
 mkdir "$HOME"/.config/i3status
 mkdir "$HOME"/.config/dunst
 mkdir "$HOME"/.config/gtk-3.0
-mkdir -p "$HOME"/.config/nvim/lua/theme
 mkdir "$HOME"/.config/qt5ct
 mkdir -p "$HOME"/.local/share/fcitx5/themes/default-dark
 mkdir "$HOME"/.config/flameshot

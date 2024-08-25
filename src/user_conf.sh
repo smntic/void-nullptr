@@ -34,4 +34,5 @@ chmod +x "$HOME"/bin/lock
 
 # Clone nvim-config
 git clone https://github.com/smnast/nvim-config.git ~/.config/nvim
+mkdir "$HOME"/.config/nvim/lua/themes
 
