@@ -6,7 +6,7 @@ if [[ "$1" == "--vm" ]]; then
 fi
 
 # Docker
-sudo xbps-install -S docker docker-compose podman
+xbps-install -y docker docker-compose podman
 
 # Xorg and display manager
 xbps-install -y xorg
