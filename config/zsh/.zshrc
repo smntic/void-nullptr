@@ -92,18 +92,19 @@ setopt SHARE_HISTORY
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/simon/bin/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/simon/bin/miniconda/etc/profile.d/conda.sh" ]; then
-        . "/home/simon/bin/miniconda/etc/profile.d/conda.sh"
+if [[ -z "${CONDA_SHLVL}" ]]; then
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    __conda_setup="$('/home/simon/bin/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
     else
-        export PATH="/home/simon/bin/miniconda/bin:$PATH"
+        if [ -f "/home/simon/bin/miniconda/etc/profile.d/conda.sh" ]; then
+            . "/home/simon/bin/miniconda/etc/profile.d/conda.sh"
+        else
+            export PATH="/home/simon/bin/miniconda/bin:$PATH"
+        fi
     fi
+    unset __conda_setup
+    # <<< conda initialize <<<
 fi
-unset __conda_setup
-# <<< conda initialize <<<
-
