@@ -92,7 +92,7 @@ setopt SHARE_HISTORY
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-if [[ -z "${CONDA_SHLVL}" ]]; then
+if [[ -z "$NVIM" ]]; then
     # >>> conda initialize >>>
     # !! Contents within this block are managed by 'conda init' !!
     __conda_setup="$('/home/simon/bin/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
