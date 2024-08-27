@@ -58,7 +58,7 @@ xbps-install -y noto-fonts-emoji noto-fonts-cjk nerd-fonts-symbols-ttf
 # Window managers and utilities
 xbps-install -y i3 i3status i3lock-color picom dunst dmenu
 xbps-install -y breeze breeze-gtk
-xbps-install -y qt5ct
+xbps-install -y qt5ct qt6ct
 xbps-install -y xss-lock xclip
 xbps-install -y redshift brightnessctl
 
