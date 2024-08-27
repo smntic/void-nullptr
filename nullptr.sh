@@ -9,6 +9,7 @@ xbps-install -Syu
 ./src/misc_install.sh "$@"
 ./src/groups.sh "$@"
 ./src/services.sh "$@"
+./src/audio.sh "$@"
 ./src/fonts.sh "$@"
 ./src/xorg_conf.sh "$@"
 ./src/precomp_headers.sh "$@"

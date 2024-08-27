@@ -63,7 +63,11 @@ xbps-install -y xss-lock xclip
 xbps-install -y redshift brightnessctl
 
 # Audio
-xbps-install -y pulseaudio alsa-plugins-pulseaudio pamixer
+xbps-install -y pipewire alsa-pipewire alsa-utils pamixer
+
+# Bluetooth
+xbps-intsall -y bluez
+xbps-install -y libspa-bluetooth
 
 # Shell
 xbps-install -y zsh

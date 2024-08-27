@@ -34,3 +34,6 @@ ln -s /etc/sv/cronie /var/service
 # Docker
 ln -s /etc/sv/docker /var/service
 
+# Bluetooth
+ln -s /etc/sv/bluetoothd /var/service
+
