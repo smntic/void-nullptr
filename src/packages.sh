@@ -54,6 +54,7 @@ xbps-install -y libreoffice
 
 # Fonts
 xbps-install -y noto-fonts-emoji noto-fonts-cjk nerd-fonts-symbols-ttf
+xbps-install -y fonts-roboto-ttf
 
 # Window managers and utilities
 xbps-install -y i3 i3status i3lock-color picom dunst dmenu
