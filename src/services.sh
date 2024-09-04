@@ -31,6 +31,9 @@ rm /var/service/acpid
 # Cronie
 ln -s /etc/sv/cronie /var/service
 
+# Chrony
+ln -s /etc/sv/chronyd /var/service
+
 # Docker
 ln -s /etc/sv/docker /var/service
 
