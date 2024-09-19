@@ -7,5 +7,6 @@
     "pylint.args": [
         "--disable=C0111,E1133,E1136,E1137"
     ],
-    "keyboard.dispatch": "keyCode"
+    "keyboard.dispatch": "keyCode",
+    "terminal.integrated.showExitAlert": false
 }
