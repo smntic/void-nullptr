@@ -143,6 +143,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # move focused workspace
 bindsym $mod+$ctrl+h move workspace to output left
 bindsym $mod+$ctrl+l move workspace to output right
+bindsym $mod+$ctrl+j move workspace to output up
+bindsym $mod+$ctrl+k move workspace to output down
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
