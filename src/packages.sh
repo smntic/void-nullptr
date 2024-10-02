@@ -40,6 +40,9 @@ xbps-install -y cronie chrony
 xbps-install -y cloc strace
 xbps-install -y gparted
 
+# Hacking
+xbps-install -y netcat ghidra kicad
+
 # Packages for splatmoji
 xbps-install -y rofi xdotool xsel
 
