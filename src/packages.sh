@@ -43,6 +43,9 @@ xbps-install -y gparted
 # Hacking
 xbps-install -y netcat ghidra kicad
 
+# Scrcpy
+xbps-install -y scrcpy
+
 # Packages for splatmoji
 xbps-install -y rofi xdotool xsel
 
