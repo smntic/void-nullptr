@@ -29,6 +29,7 @@ xbps-install -y ninja
 xbps-install -y scons pkgconf
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
 xbps-install -y openjdk8 openjdk17
+xbps-install -y SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel SDL2_gfx-devel
 
 # Other tools
 xbps-install -y htop neofetch psmisc CPU-X hdparm
