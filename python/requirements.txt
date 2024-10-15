@@ -1,6 +1,9 @@
 torch
 torchvision
 tensorboard
+tensorflow
+keras
+brian2
 timm
 numpy
 pygame
