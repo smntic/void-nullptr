@@ -40,3 +40,7 @@ ln -s /etc/sv/docker /var/service
 # Bluetooth
 ln -s /etc/sv/bluetoothd /var/service
 
+# Cups
+ln -s /etc/sv/cupsd /var/service
+ln -s /etc/sv/avahi-daemon /var/service
+

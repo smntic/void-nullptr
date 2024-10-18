@@ -21,6 +21,9 @@ xbps-install -y firefox chromium
 # File managers and utilities
 xbps-install -y ranger atool
 
+# Printers
+xbps-install -y cups cups-filters avahi nss-mdns
+
 # Development tools
 xbps-install -y base-devel
 xbps-install -y git python3-virtualenv ffmpeg flex ncurses-devel
