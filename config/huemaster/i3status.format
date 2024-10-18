@@ -47,6 +47,7 @@ battery all {
         status_full = " 󰚥"
         status_bat = " 󱐤"
         status_unk = " "
+        status_idle = " 󰚥"
 }
 
 volume master {
