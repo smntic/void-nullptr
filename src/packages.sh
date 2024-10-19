@@ -22,7 +22,7 @@ xbps-install -y firefox chromium
 xbps-install -y ranger atool
 
 # Printers
-xbps-install -y cups cups-filters avahi nss-mdns
+xbps-install -y cups cups-filters avahi nss-mdns hplip
 
 # Development tools
 xbps-install -y base-devel
