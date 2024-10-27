@@ -26,4 +26,6 @@ pyautogui
 pyvista
 tianshou
 pwn
+autopep8
+pylint
 cptool-py
