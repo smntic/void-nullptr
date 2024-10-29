@@ -25,6 +25,7 @@ pynput
 pyautogui
 pyvista
 tianshou
+stable-baselines3
 pwn
 autopep8
 pylint
