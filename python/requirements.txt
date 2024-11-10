@@ -33,3 +33,4 @@ autopep8
 pylint
 cptool-py
 pure-python-adb
+python-dotenv
