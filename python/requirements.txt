@@ -32,3 +32,4 @@ pwn
 autopep8
 pylint
 cptool-py
+pure-python-adb
