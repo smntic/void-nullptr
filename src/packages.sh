@@ -48,6 +48,9 @@ xbps-install -y gparted
 # Hacking
 xbps-install -y netcat ghidra kicad
 
+# Raspberry PI
+xbps-install -y rpi-imager
+
 # Scrcpy
 xbps-install -y scrcpy
 
