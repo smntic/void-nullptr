@@ -24,6 +24,7 @@ cp -r config/mimeapps.list "$HOME"/.config/
 cp -r config/.xprofile "$HOME"
 cp -r config/.bash_profile "$HOME"
 cp -r config/.zshenv "$HOME"
+cp -r config/.emacs "$HOME"
 cp -r cpt/template.cpp "$HOME"/.local/share/cp-tool/
 
 # Global (user) clang-format config

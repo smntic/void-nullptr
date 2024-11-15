@@ -28,12 +28,15 @@ xbps-install -y cups cups-filters avahi nss-mdns hplip
 xbps-install -y base-devel
 xbps-install -y git python3-virtualenv ffmpeg flex ncurses-devel
 xbps-install -y make cmake gcc Bear gdb ccache clang-tools-extra
-xbps-install -y sbcl
 xbps-install -y ninja
 xbps-install -y scons pkgconf
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
 xbps-install -y openjdk8 openjdk17
 xbps-install -y SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel SDL2_gfx-devel
+
+# Emacs + SLIME + Common Lisp
+xbps-install -y emacs emacs-gtk3
+xbps-install -y sbcl
 
 # Other tools
 xbps-install -y htop neofetch psmisc CPU-X hdparm

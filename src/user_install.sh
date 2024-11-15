@@ -19,3 +19,11 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 ~/bin/miniconda/bin/conda init
 
+# ===== Lisp Environment =====
+# Quicklisp
+wget https://beta.quicklisp.org/quicklisp.lisp
+sbcl --load quicklisp.lisp --eval "(progn (quicklisp-quickstart:install) (ql:add-to-init-file) (quit))"
+rm quicklisp.lisp
+# SLIME
+sbcl --eval "(progn (ql:quickload 'quicklisp-slime-helper) (quit))"
+
