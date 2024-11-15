@@ -28,6 +28,7 @@ xbps-install -y cups cups-filters avahi nss-mdns hplip
 xbps-install -y base-devel
 xbps-install -y git python3-virtualenv ffmpeg flex ncurses-devel
 xbps-install -y make cmake gcc Bear gdb ccache clang-tools-extra
+xbps-install -y sbcl
 xbps-install -y ninja
 xbps-install -y scons pkgconf
 xbps-install -y libopencv-devel speech-dispatcher ntfs-3g
