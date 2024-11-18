@@ -35,3 +35,6 @@ mkdir "$HOME"/.config/flameshot
 # cp-tool template folder
 mkdir -p "$HOME"/.local/share/cp-tool
 
+# ssh config folder
+mkdir "$HOME"/.ssh
+

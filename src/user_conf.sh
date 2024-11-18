@@ -26,6 +26,7 @@ cp -r config/.bash_profile "$HOME"
 cp -r config/.zshenv "$HOME"
 cp -r config/.emacs "$HOME"
 cp -r cpt/template.cpp "$HOME"/.local/share/cp-tool/
+cp -r config/ssh_config "$HOME"/.ssh/config
 
 # Global (user) clang-format config
 ln -s "$HOME"/.config/clang-format/clang-format.conf "$HOME/.clang-format"
