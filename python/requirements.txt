@@ -35,3 +35,4 @@ cptool-py
 pure-python-adb
 python-dotenv
 discord.py-self
+mediapipe
