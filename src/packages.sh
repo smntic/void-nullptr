@@ -48,7 +48,7 @@ xbps-install -y autorandr kdeconnect xdg-utils xdg-user-dirs
 xbps-install -y cronie chrony
 xbps-install -y cloc strace
 xbps-install -y gparted
-xbps-install -y lsscsi
+xbps-install -y lsscsi lsof
 
 # Hacking
 xbps-install -y netcat ghidra kicad
