@@ -3,7 +3,7 @@
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/smnast/void-nullptr
+git clone https://github.com/smntic/void-nullptr
 ```
 
 ## Usage
