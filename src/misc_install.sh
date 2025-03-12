@@ -3,7 +3,7 @@
 # ===== Huemaster =====
 
 # Clone repo
-git clone --recurse-submodules https://github.com/smnast/HueMaster
+git clone --recurse-submodules https://github.com/smntic/HueMaster
 
 # Build & install
 cd HueMaster

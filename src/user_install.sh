@@ -2,7 +2,7 @@
 
 # ===== cp-tool =====
 pushd "$HOME"/git
-git clone https://github.com/smnast/cp-tool
+git clone https://github.com/smntic/cp-tool
 ln -s "$HOME"/git/cp-tool/cpt "$HOME"/bin/
 ln -s "$HOME"/git/cp-tool/cp-tool.py "$HOME"/bin/
 popd
